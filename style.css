@@ -136,6 +136,10 @@ body{
     transition: color 0.2s ease-in;
 }
 
+.links a:visited{
+    color: var(--clr-white);
+}
+
 
 .links:hover a{
     color: var(--clr-dark-gray);
