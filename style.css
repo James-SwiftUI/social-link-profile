@@ -46,12 +46,8 @@ table {
     border-spacing: 0;
 }
 
-:root{
-    --bg-yellow: hsl(47, 88%, 63%);
-    --bg-white: hsl(0, 0%, 100%);
-    --primary-black: hsl(0, 0%, 7%);
-    --secondary-gray: hsl(0, 0%, 50%);
-    --corner-radius: 0.75rem;
+a{
+    text-decoration: none;
 }
 
 /* End CSS Reset */
@@ -132,9 +128,19 @@ body{
 
 .links:hover{
     background-color: var(--primary-green);
-    color: var(--clr-dark-gray);
     cursor: pointer;
 }
+
+.links a{
+    color: var(--clr-white);
+    transition: color 0.2s ease-in;
+}
+
+
+.links:hover a{
+    color: var(--clr-dark-gray);
+}
+
 
 
 
