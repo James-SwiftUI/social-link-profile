@@ -158,7 +158,7 @@ body{
 */
 
 
-/* @media (max-width: 375px){
+@media (max-width: 375px){
 
     .card{
         width: 32.7rem;
@@ -170,5 +170,5 @@ body{
     .links{
         width: 27.5rem;
     }
-} */
+} 
 
